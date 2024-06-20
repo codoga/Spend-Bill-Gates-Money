@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: yellowgreen;
+}
+
+h2 {
+  color: darkgreen;
+}
+
+.bill-gates-image {
+  width: auto;
+  max-width: 85%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+
+.product {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  height: 400px;
+}
+
+.product h3 {
+  color: orange;
+}
+
+.product img {
+  width: auto;
+  max-width: 85%;
+  height: auto;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.product p {
+  margin: 10px 0;
+}
+
+.product button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.product button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.purchased-products {
+  margin-top: 20px;
+  text-align: left;
+}
